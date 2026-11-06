@@ -4,9 +4,7 @@ const SAFE_URL = /^(https:\/\/(t\.me|telegram\.me|telegram\.dog)\/|tg:\/\/)/;
 let items = [];   // все картинки с пропорциями
 let order = [];   // порядок как на экране (по нему листает карусель)
 let current = 0;
-document.getElementById('admin').addEventListener('click', function() {
-  window.location.href = 'https://t.me/mistercatnap';
-});
+
 
 const shuffle = (a) => {
   a = [...a];
